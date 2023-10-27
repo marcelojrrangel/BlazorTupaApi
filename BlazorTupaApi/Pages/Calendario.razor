@@ -3,37 +3,6 @@
 @using Newtonsoft.Json;
 @inject HttpClient Http
 
-@* <PageTitle>Counter</PageTitle>
-
-<h3>Calendario - @teste</h3> *@
-
-@* @if (eventos == null)
-{
-    <p><em>Vazio</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Data</th>
-                <th>Descrição</th>
-                <th>Mês</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var evento in eventos)
-            {
-                <tr>
-                    <td>@evento.Data.ToShortDateString()</td>
-                    <td>@evento.Descricao</td>
-                    <td>@evento.Mes</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-} *@
-
 @eventosJson;
 
 @code {
