@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BlazorTupaApi.dll": "sha256-XTPCdPHX6cTgA6\/44OXjxYa7oAfBFxcj1gOWygd8Q5U=",
+      "BlazorTupaApi.dll": "sha256-2TbC4XznL2QErLZH\/HhIRXEGpxoiimrLpiS7SOXydfk=",
       "Dominio.dll": "sha256-7DpMd3LnigwniH\/Ix5udDXPeCfD7YPglpR7xV1ywe98=",
       "Microsoft.AspNetCore.Components.dll": "sha256-xnW\/Fbe8YTPSRHSlVt4lIIWJnCDxbQyQdlHpeC+rkUo=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-vFyhxmfvFAitJ4JiLPxjagOq6kefT7EtwXu\/rb60iy8=",

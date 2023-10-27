@@ -8,5 +8,10 @@
     "descricao": "Gira de Exú",
     "data": "2024-01-27T19:30:00",
     "detalhe": "Início às 19:30 Término às 22:00"
-  }  
+  },
+  {
+    "descricao": "Gira de Teste Fevereiro",
+    "data": "2024-02-01T19:30:00",
+    "detalhe": "Início às 19:30 Término às 22:00"
+  }
 ]
