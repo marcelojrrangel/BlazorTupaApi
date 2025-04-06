@@ -1,0 +1,69 @@
+{
+    "orixas": [
+        {
+            "nome": "Exú",
+            "imagem": "exu.webp",
+            "resumo": "Exu é um Orixá fundamental nas religiões de matriz africana, especialmente no candomblé e na umbanda. Representa a comunicação, o movimento, e é o mensageiro entre os humanos e os Orixás. Exu é o guardião das encruzilhadas e dos caminhos, sendo responsável por abrir e fechar os caminhos da vida. Ele também é conhecido por sua astúcia e caráter ambivalente, sendo tanto um guardião quanto um gerador do caos, capaz de ensinar através de lições inesperadas. Exu não é associado ao mal, como muitas vezes é erroneamente interpretado, mas sim ao dinamismo, à transformação e à conexão entre os mundos físico e espiritual. Ele é o primeiro a ser saudado em rituais, pois sem sua permissão, nada pode ser realizado."
+        },
+        {
+            "nome": "Iansã",
+            "imagem": "iansa.png",
+            "resumo": "Iansã, também conhecida como Oyá, é a Orixá dos ventos, tempestades e raios na tradição yorubá e nas religiões afro-brasileiras. Ela é uma guerreira poderosa e corajosa, associada à força feminina e à liberdade. Iansã rege as transformações e as mudanças rápidas, sendo também a senhora dos eguns (espíritos dos mortos). Com sua intensidade, ela governa as paixões e as emoções, trazendo movimento e renovação às vidas daqueles que a cultuam. É conhecida por sua energia vibrante e por ser uma protetora feroz."
+        },
+        {
+            "nome": "Xangô",
+            "imagem": "xango.webp",
+            "resumo": "Xangô é uma das divindades mais poderosas e populares das religiões de matriz africana, como o Candomblé e a Umbanda. Ele é frequentemente associado aos raios, aos trovões e à justiça. Xangô é conhecido por sua força, sua paixão e por seu senso de justiça, punindo aqueles que cometem injustiças. É também um orixá da autoridade e da liderança.  Simbolizado pelo machado e pelo oxê, Xangô é reverenciado como o rei de Oyó. Em resumo, Xangô representa a força, a justiça, a paixão e a autoridade. É um dos Orixás mais cultuados e respeitados nas religiões de matriz africana."
+        },
+        {
+            "nome": "Iemanjá",
+            "imagem": "iemanja.webp",
+            "resumo": "Iemanjá é uma das orixás mais populares e reverenciadas nas religiões de matriz africana, como o Candomblé e a Umbanda. Considerada a mãe de todos os orixás, ela é a divindade das águas, dos mares e da fertilidade. Representa a maternidade, a proteção e a intuição. Associada às luas e às ondas, Iemanjá é cultuada como a rainha do mar e é frequentemente representada por uma mulher negra, com cabelos longos e azuis, cercada por peixes e outros animais marinhos. Em resumo, Iemanjá é a orixá das águas, símbolo da maternidade e da proteção, reverenciada em diversas culturas como a deusa do mar."
+        },
+        {
+            "nome": "Nanã",
+            "imagem": "nana.webp",
+            "resumo": "Nanã é uma das orixás mais antigas e veneradas nas religiões de matriz africana. Considerada a mãe de muitos orixás, ela é associada às águas paradas, como rios, pântanos e lagos, e à terra úmida. Nanã representa a sabedoria ancestral, a fertilidade e a criação. É vista como uma figura maternal, calma e paciente, que simboliza a origem da vida.  Frequentemente representada como uma anciã, Nanã é cultuada como a deusa da terra úmida. Em resumo, Nanã é a orixá da criação, da fertilidade e da sabedoria ancestral. É considerada a mãe de muitos outros orixás e é reverenciada como a deusa da terra úmida."
+        },
+        {
+            "nome": "Obaluaiê",
+            "imagem": "obaluaie.webp",
+            "resumo": "Obaluaiê é um orixá fundamental nas religiões de matriz africana, especialmente no Candomblé e na Umbanda. Ele é frequentemente associado à cura, às doenças e à terra. Obaluaiê é considerado o protetor daqueles que sofrem, e é invocado para tratar enfermidades e desequilíbrios físicos e espirituais. Sua ligação com a terra o torna um símbolo de transformação e regeneração. Representado por um homem coberto de cicatrizes, Obaluaiê é reverenciado por sua sabedoria e paciência. Em resumo, Obaluaiê é o orixá da cura e da terra, um protetor dos enfermos e um símbolo de transformação. Sua energia está presente em todos os processos de cura e renovação."
+        },
+        {
+            "nome": "Ogum",
+            "imagem": "ogum.webp",
+            "resumo": "Ogum é um dos Orixás mais venerados nas religiões de matriz africana, como o Candomblé e a Umbanda. Ele é frequentemente associado à guerra, ao ferro, à tecnologia e aos caminhos. Ogum é considerado um guerreiro valente e um protetor dos seus filhos. É o orixá que abre os caminhos, tanto os físicos quanto os espirituais. Sua ligação com o ferro o torna o patrono dos ferreiros e de todos aqueles que trabalham com metais. Ogum também é associado à agricultura, pois a enxada, uma ferramenta fundamental para o cultivo da terra, é feita de ferro. Em resumo, Ogum é o Orixá da força, da coragem e da proteção. É o guerreiro que abre os caminhos e protege seus filhos. Sua energia está presente em todas as atividades que exigem força e determinação."
+        },
+        {
+            "nome": "Ossain",
+            "imagem": "ossain.webp",
+            "resumo": "Ossain é um orixá fundamental nas religiões de matriz africana, especialmente no Candomblé. Ele é considerado o guardião das folhas e das ervas medicinais. Possui um conhecimento profundo sobre as propriedades curativas das plantas e é responsável por fornecer as folhas sagradas para os rituais de cura e proteção. Ossain habita as florestas e é visto como um bruxo sábio e misterioso. Ele detém o conhecimento ancestral sobre as plantas e seus poderes, utilizando-as para curar doenças, trazer prosperidade e proteger seus filhos. Em resumo, Ossain é o orixá das plantas, das ervas e da cura. É o detentor do conhecimento ancestral sobre as propriedades medicinais das plantas e é invocado para tratar doenças e desequilíbrios físicos e espirituais."
+        },
+        {
+            "nome": "Oxalá",
+            "imagem": "oxala.webp",
+            "resumo": "Oxalá é um dos Orixás mais importantes e reverenciados nas religiões de matriz africana, como o Candomblé e a Umbanda. Ele é quem dá o sopro da vida ao ser humano. Oxalá representa a paz, a pureza e a criação. É associado à cor branca e aos elementos céu e ar. Ele é o símbolo da ordem e do equilíbrio cósmico. Oxalá pode se manifestar de diversas formas, sendo as mais conhecidas: Oxalufã: A forma mais velha, representando a sabedoria e a experiência. Em resumo, Oxalá é o Orixá da paz e da pureza. É o sopro da vida."
+        },
+        {
+            "nome": "Oxóssi",
+            "imagem": "oxossi.webp",
+            "resumo": "Oxóssi é um Orixá profundamente ligado à natureza, especialmente às florestas e à caça. Representa a habilidade, a astúcia e a fartura. É considerado o rei da floresta e o protetor dos caçadores. Oxóssi é um Orixá guerreiro e estrategista, mas também é associado à paz e à harmonia. Suas flechas simbolizam a precisão e a capacidade de atingir o alvo, mas também representam a busca por conhecimento e a conexão com o divino. Em resumo, Oxóssi é o Orixá da caça, das florestas e da fartura. É um guerreiro habilidoso e um protetor da natureza, sempre buscando o equilíbrio entre a força e a sabedoria."
+        },
+        {
+            "nome": "Oxum",
+            "imagem": "oxum.webp",
+            "resumo": "Oxum é uma das orixás mais populares e reverenciadas nas religiões de matriz africana, especialmente no Candomblé e na Umbanda. Associada às águas doces, como rios e cachoeiras, ela é considerada a rainha da beleza, da fertilidade e do amor. Oxum é a protetora das mulheres e das crianças e está ligada aos conceitos de maternidade e sensibilidade. Sua energia está presente em tudo o que é belo e delicado. Representada pela cor amarela e pelo ouro, Oxum é sincretizada com Nossa Senhora da Conceição no catolicismo. Em resumo, Oxum é a orixá das águas doces, da beleza, da fertilidade e do amor. É a protetora das mulheres e das crianças, e sua energia está presente em tudo o que é belo e delicado."
+        },
+        {
+            "nome": "Oxumarê",
+            "imagem": "oxumare.webp",
+            "resumo": "Oxumarê é o Orixá ligado ao ciclo da vida, à renovação e à continuidade, simbolizado pela cobra e o arco-íris. É conhecido por trazer prosperidade e abundância, sendo associado às chuvas e à fertilidade da terra. Oxumarê é uma divindade andrógina, representando tanto aspectos masculinos quanto femininos, o que reforça sua ligação com a dualidade e o equilíbrio. Ele também é responsável pela circulação das energias vitais no mundo, garantindo a renovação constante da natureza. Como guardião do arco-íris, Oxumarê conecta o céu e a terra, simbolizando a união dos opostos."
+        },
+        {
+            "nome": "Ibejí",
+            "imagem": "ibeji.webp",
+            "resumo": "Ibejí são os Orixás gêmeos, representantes da dualidade, infância e alegria. Eles simbolizam a pureza e a inocência das crianças, trazendo proteção, saúde e prosperidade. Associados à fecundidade e ao crescimento, Ibejí também são vistos como mensageiros entre os Orixás e os humanos. Eles são reverenciados por sua capacidade de transformar tristeza em alegria, sendo associados a festas e celebrações. Como divindades gêmeas, Ibejí representam o equilíbrio entre forças opostas, como luz e sombra, vida e morte, e são invocados para garantir harmonia e bem-estar."
+        }
+    ]
+}
