@@ -4,7 +4,13 @@
             "versao": 1,
             "tel": "553198140421",
             "insta": "https://instagram.com/_tupaa?igshid=NjIwNzIyMDk2Mg==",
-            "ia": "gemini-2.0-flash"
+            "ia": "gemini-2.0-flash",
+            "tipoLogradouro": "Rua",
+            "logradouro": "Tapajós",
+            "bairro": "Amazonas",
+            "cidade": "Contagem",
+            "estado": "MG",
+            "cep": "32240-060"
         }
     ]
 }
