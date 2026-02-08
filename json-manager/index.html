@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gerenciador de JSONs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/material-darker.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">JT</div>
+          <div>
+            <div class="brand-title">JSON Tupa</div>
+            <div class="brand-subtitle">Manager</div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">Repositorio</div>
+          <label class="field">
+            <span>Owner</span>
+            <input id="owner" type="text" value="marcelojrrangel" />
+          </label>
+          <label class="field">
+            <span>Repo</span>
+            <input id="repo" type="text" value="BlazorTupaApi" />
+          </label>
+          <label class="field">
+            <span>Pasta</span>
+            <input
+              id="path"
+              type="text"
+              value="BlazorTupaApi/wwwroot/sample-data"
+            />
+          </label>
+          <label class="field">
+            <span>Branch</span>
+            <input id="branch" type="text" value="master" />
+          </label>
+          <div class="row">
+            <button id="listFiles" class="btn primary">Listar JSONs</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">Arquivos</div>
+          <div id="fileList" class="file-list"></div>
+        </div>
+
+        <div class="panel" style="display: none;">
+          <div class="panel-title">Deploy</div>
+          <label class="field">
+            <span>Workflow</span>
+            <select id="workflowSelect"></select>
+          </label>
+          <label class="field">
+            <span>Ref</span>
+            <input id="workflowRef" type="text" value="master" />
+          </label>
+          <div class="row">
+            <button id="loadWorkflows" class="btn ghost">Carregar</button>
+            <button id="runDeploy" class="btn primary">Disparar</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <button id="logout" class="btn danger">Sair</button>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <div class="title">Editor de Dados</div>
+            <div class="subtitle" id="currentFile">Nenhum arquivo selecionado</div>
+          </div>
+          <div class="actions">
+            <button id="formatJson" class="btn ghost">Formatar JSON</button>
+            <button id="applyJson" class="btn ghost">Aplicar JSON</button>
+          </div>
+        </header>
+
+        <section class="workspace">
+          <div class="tabs">
+            <button class="tab active" data-tab="form">Formulario</button>
+            <button class="tab" data-tab="json">JSON Livre</button>
+          </div>
+
+          <div class="tab-content active" id="tab-form">
+            <div id="formContainer" class="form-container"></div>
+          </div>
+
+          <div class="tab-content" id="tab-json">
+            <textarea id="jsonEditor" class="json-editor" spellcheck="false"></textarea>
+          </div>
+        </section>
+
+        <section class="status" id="statusBar">Pronto.</section>
+      </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/javascript/javascript.min.js"></script>
+    <script src="assets/js/github.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login - JSON Tupa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="login-card">
+        <div class="brand">
+          <div class="brand-mark">JT</div>
+          <div>
+            <div class="brand-title">JSON Tupa</div>
+            <div class="brand-subtitle">Manager</div>
+          </div>
+        </div>
+
+        <h1>Entrar</h1>
+        <p class="hint">
+          Use um token pessoal do GitHub com permissao de repo e actions.
+          O token fica armazenado no navegador.
+        </p>
+
+        <label class="field">
+          <span>Token do GitHub</span>
+          <input id="tokenInput" type="password" placeholder="ghp_..." />
+        </label>
+
+        <button id="loginBtn" class="btn primary">Salvar Token</button>
+        <div class="status" id="loginStatus">.</div>
+      </div>
+    </div>
+
+    <script src="assets/js/github.min.js"></script>
+    <script>
+      (function () {
+        const tokenInput = document.getElementById("tokenInput");
+        const loginBtn = document.getElementById("loginBtn");
+        const status = document.getElementById("loginStatus");
+
+        if (getStoredToken()) {
+          window.location.href = "index.html";
+          return;
+        }
+
+        loginBtn.addEventListener("click", () => {
+          const token = tokenInput.value.trim();
+          if (!token) {
+            status.textContent = "Informe um token valido.";
+            return;
+          }
+          setStoredToken(token);
+          status.textContent = "Token salvo. Redirecionando...";
+          setTimeout(() => {
+            window.location.href = "index.html";
+          }, 700);
+        });
+      })();
+    </script>
+  </body>
+</html>
