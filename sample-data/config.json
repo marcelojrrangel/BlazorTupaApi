@@ -1,17 +1,17 @@
 {
-    "configs": [
-        {
-            "versao": 1,
-            "tel": "553198140421",
-            "insta": "https://instagram.com/_tupaa?igshid=NjIwNzIyMDk2Mg==",
-            "ia": "gemini-2.0-flash",
-            "tipoLogradouro": "Rua",
-            "logradouro": "Tapajós",
-            "numero": "348",
-            "bairro": "Amazonas",
-            "cidade": "Contagem",
-            "estado": "MG",
-            "cep": "32240-060"
-        }
-    ]
+  "configs": [
+    {
+      "versao": 1,
+      "tel": "553198140421",
+      "insta": "https://instagram.com/_tupaa?igshid=NjIwNzIyMDk2Mg==",
+      "ia": "gemini-2.5-flash",
+      "tipoLogradouro": "Rua",
+      "logradouro": "Tapajós",
+      "numero": "348",
+      "bairro": "Amazonas",
+      "cidade": "Contagem",
+      "estado": "MG",
+      "cep": "32240-060"
+    }
+  ]
 }
